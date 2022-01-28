@@ -1,0 +1,48 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar-nav li{
+    margin-right:10px ;
+    
+}
+.b1{
+    border-radius: 20px;
+}
+ hr{
+    color:rgb(253, 44, 44);
+    width:80px;
+    text-align: center;
+    border: solid;
+}
+.star{
+	color:#ecd823;
+}
+#feature img,
+#feature2 img,
+#feature3 img,
+#feature4 img{
+    margin-top: 15px;
+    transform: scale(1);
+    transition: .5s;
+}
+#feature img:hover,
+#feature2 img:hover,
+#feature3 img:hover,
+#feature4 img:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+#baner{
+	background-image: url(../images/banner/2.jpg);
+	background-attachment: scroll;
+	background-position: cover;
+}
